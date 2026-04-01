@@ -1,23 +1,38 @@
-# Ignore everything
+# Ignore everything, allow all directories (so git traverses them)
 *
+!*/
 
-# Allow dotfiles we want to track
-!.zshrc
-!.zprofile
-!.zsh_plugins.txt
+# Top-level
 !.gitignore
-!README.md
-!Brewfile
 
-# Allow config directories
-!.config/
-!.config/git/
-!.config/git/**
-!.config/ghostty/
+# Zsh
+!.config/zsh/.zshrc
+!.config/zsh/.zprofile
+!.config/zsh/.zsh_plugins.txt
+
+# Git
+!.config/git/config
+!.config/git/ignore
+
+# Ghostty
 !.config/ghostty/config
-!.config/nvim/
-!.config/nvim/**
-!.config/karabiner/
-!.config/karabiner/**
-!.config/tmux/
-!.config/tmux/**
+
+# Neovim
+!.config/nvim/init.lua
+!.config/nvim/lua/**
+
+# Karabiner
+!.config/karabiner/karabiner.json
+
+# Tmux
+!.config/tmux/tmux.conf
+
+# Vim
+!.config/vim/vimrc
+
+# Btop
+!.config/btop/btop.conf
+
+# Misc
+!.config/Brewfile
+!.config/README.md

@@ -1,0 +1,2 @@
+" vim config
+set viminfofile=~/.config/vim/viminfo

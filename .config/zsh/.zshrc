@@ -23,7 +23,7 @@ alias cf="caffeinate -id"
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
-source "$HOME/.antidote/antidote.zsh"
+source "$ZDOTDIR/.antidote/antidote.zsh"
 antidote load
 
 autoload -Uz promptinit && promptinit && prompt pure

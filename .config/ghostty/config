@@ -1,0 +1,10 @@
+mouse-hide-while-typing = true
+scrollback-limit = 1000000
+window-save-state = always
+
+keybind = cmd+enter=unbind
+theme = GruvboxDarkHard
+keybind = shift+enter=text:\n
+scrollback-limit = 4294967295
+
+auto-update-channel = tip

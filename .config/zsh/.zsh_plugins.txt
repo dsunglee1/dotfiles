@@ -1,0 +1,9 @@
+getantidote/use-omz
+ohmyzsh/ohmyzsh path:plugins/zoxide
+
+mattmc3/ez-compinit
+Aloxaf/fzf-tab
+sindresorhus/pure kind:fpath
+zdharma-continuum/fast-syntax-highlighting
+zsh-users/zsh-history-substring-search
+zsh-users/zsh-completions

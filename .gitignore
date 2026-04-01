@@ -1,36 +1,52 @@
-# Ignore everything, allow all directories (so git traverses them)
+# Ignore everything
 *
-!*/
 
 # Top-level
 !.gitignore
+!.config/
 
 # Zsh
+!.config/zsh/
 !.config/zsh/.zshrc
 !.config/zsh/.zprofile
 !.config/zsh/.zsh_plugins.txt
 
 # Git
+!.config/git/
 !.config/git/config
 !.config/git/ignore
 
 # Ghostty
+!.config/ghostty/
 !.config/ghostty/config
 
 # Neovim
+!.config/nvim/
+!.config/nvim/.gitignore
 !.config/nvim/init.lua
-!.config/nvim/lua/**
+!.config/nvim/lua/
+!.config/nvim/lua/custom/
+!.config/nvim/lua/custom/plugins/
+!.config/nvim/lua/custom/plugins/init.lua
+!.config/nvim/lua/kickstart/
+!.config/nvim/lua/kickstart/health.lua
+!.config/nvim/lua/kickstart/plugins/
+!.config/nvim/lua/kickstart/plugins/*
 
 # Karabiner
+!.config/karabiner/
 !.config/karabiner/karabiner.json
 
 # Tmux
+!.config/tmux/
 !.config/tmux/tmux.conf
 
 # Vim
+!.config/vim/
 !.config/vim/vimrc
 
 # Btop
+!.config/btop/
 !.config/btop/btop.conf
 
 # Misc

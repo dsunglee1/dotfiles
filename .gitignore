@@ -1,0 +1,23 @@
+# Ignore everything
+*
+
+# Allow dotfiles we want to track
+!.zshrc
+!.zprofile
+!.zsh_plugins.txt
+!.gitignore
+!README.md
+!Brewfile
+
+# Allow config directories
+!.config/
+!.config/git/
+!.config/git/**
+!.config/ghostty/
+!.config/ghostty/config
+!.config/nvim/
+!.config/nvim/**
+!.config/karabiner/
+!.config/karabiner/**
+!.config/tmux/
+!.config/tmux/**
